@@ -1,0 +1,24 @@
+<template>
+  <div class="about">
+    <h1>This is an about page</h1>
+  </div>
+</template>
+<script>
+export default {
+  name: "About",
+  created() {
+    console.log("about created");
+  },
+  destroyed() {
+    console.log("about destroyed");
+  },
+
+  activated() {
+    console.log("about activated");
+  },
+
+  deactivated() {
+    console.log("about deactivated");
+  },
+};
+</script>
