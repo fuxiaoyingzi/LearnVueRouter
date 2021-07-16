@@ -10,7 +10,7 @@
       >
       <button @click="toUser">User</button>
     </div>
-    <keep-alive include="" :exclude="noCashList">
+    <keep-alive include="User" :exclude="noCashList">
       <router-view />
     </keep-alive>
   </div>
